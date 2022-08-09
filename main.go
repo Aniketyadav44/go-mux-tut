@@ -9,7 +9,7 @@ import (
 func main() {
 	r := Router
 
-	HandleFunc()
+	HandleRoutes()
 
 	fmt.Println("Server started on port:8000")
 

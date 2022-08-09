@@ -6,7 +6,7 @@ import (
 
 var Router = mux.NewRouter()
 
-func HandleFunc() {
+func HandleRoutes() {
 	Router.HandleFunc("/users", GetAllUsers).Methods("GET")
 	Router.HandleFunc("/user/{id}", GetUser).Methods("GET")
 	Router.HandleFunc("/user", CreateUser).Methods("POST")
